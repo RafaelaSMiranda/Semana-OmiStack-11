@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div>
       <h1>Hello, world!</h1>
-      <h2>Seja bem vinda, Rafa</h2>
+      <h2>Seja bem vinda, Rafaela</h2>
       <ListTodos />
       <AddTodo />
     </div>
