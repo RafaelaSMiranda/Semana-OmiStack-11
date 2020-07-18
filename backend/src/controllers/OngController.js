@@ -10,7 +10,7 @@ module.exports = {
 
         const ongs = await connection('ongs').select('*');
         return response.json(ongs);
-        // await para aguardar um codigo finalizar
+        // await para aguardar um codigo finalizar  
 
     },
 
