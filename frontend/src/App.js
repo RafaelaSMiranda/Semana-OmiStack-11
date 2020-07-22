@@ -1,17 +1,37 @@
 import React from 'react';
+import './global.css';
+import Logon from './pages/logon';
 
-import './pages/ListTodos'
+// JSX (javascript e xml)
 
-import ListTodos from './pages/ListTodos';
-import AddTodo from './pages/AddTodo'
+function App() {
 
-export default function App() {
-  return (
-    <div>
-      <h1>Hello, world!</h1>
-      <h2>Seja bem vinda, Rafaela</h2>
-      <ListTodos />
-      <AddTodo />
-    </div>
+
+  return(
+
+    <Logon/>
   );
+
+  // const [counter, setCounter] = useState(0);
+  // // define que, mesmo que iniciar novo estado, o valor da variável não sera alterado
+  // // counter: valor real da variável
+  // // setCounter, função de atualização, resgata o valor da variável a cada atualização
+
+  // function increment() {
+
+  //   setCounter(counter + 1);
+  // }
+
+  // return (
+
+  //   <div>
+
+  //     <Header>
+  //       Contador: {counter}
+  //     </Header>
+  //     <button onClick={increment}>Incrementar</button>
+  //   </div>
+  // );
 }
+
+export default App;
