@@ -1,6 +1,6 @@
 import React from 'react';
 import './global.css';
-import Logon from './pages/logon';
+import Routes from './routes';
 
 // JSX (javascript e xml)
 
@@ -9,7 +9,7 @@ function App() {
 
   return(
 
-    <Logon/>
+    <Routes/>
   );
 
   // const [counter, setCounter] = useState(0);
