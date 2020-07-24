@@ -8,6 +8,10 @@ import logoimage from '../../assets/logo.svg';
 
 export default function Register() {
 
+    function handleRegister(e){
+        e.preventDefault();
+    }
+
     return (
 
         <div className="register-container">
@@ -25,7 +29,7 @@ export default function Register() {
                     </Link>
 
                 </section>
-                <form>
+                <form onSubmit={handleRegister}>
 
                     <input placeholder="Nome da ONG" />
                     <input type="email" placeholder="E-mail" />
